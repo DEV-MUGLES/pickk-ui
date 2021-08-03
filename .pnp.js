@@ -2443,6 +2443,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/design-token/",
           "packageDependencies": [
             ["@pickk/design-token", "workspace:packages/design-token"],
+            ["@types/node", "npm:16.4.10"],
             ["@types/tap", "npm:14.10.3"],
             ["microbundle", "npm:0.13.3"],
             ["tap", "virtual:d95611812645952825b9d246dbc76c763f55d90fdee69f320fa2e04c9d182f64778b088c978a791dec99815efd202e05c794b9f32fc3bbda1c3a0b2309ffe25a#npm:15.0.9"],
@@ -9426,7 +9427,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tsconfig/node12", "npm:1.0.9"],
             ["@tsconfig/node14", "npm:1.0.1"],
             ["@tsconfig/node16", "npm:1.0.2"],
-            ["@types/node", null],
+            ["@types/node", "npm:16.4.10"],
             ["@types/swc__core", null],
             ["@types/swc__wasm", null],
             ["@types/types__node", null],

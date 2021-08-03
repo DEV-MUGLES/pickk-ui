@@ -44,6 +44,7 @@
     "dist"
   ],
   "devDependencies": {
+    "@types/node": "^16.4.10",
     "@types/tap": "^14.10.3",
     "microbundle": "^0.13.1",
     "tap": "^15.0.9",

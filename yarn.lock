@@ -1410,6 +1410,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pickk/design-token@workspace:packages/design-token"
   dependencies:
+    "@types/node": ^16.4.10
     "@types/tap": ^14.10.3
     microbundle: ^0.13.1
     tap: ^15.0.9
@@ -1603,7 +1604,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/node@npm:*, @types/node@npm:^16.4.10":
   version: 16.4.10
   resolution: "@types/node@npm:16.4.10"
   checksum: fcbd20531909ebc1edbc3183d7128a6c72a5e543c4a6966ba787d9be6b5619e4074a4e1ddeb12f694f99526bf1c5f55e653fcde12215fd9a0999a0db8501af2b
