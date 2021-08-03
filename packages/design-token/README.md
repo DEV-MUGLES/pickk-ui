@@ -29,11 +29,15 @@ yarn add @pickk/design-token
 ### JavaScript (TypeScript)
 
 ```ts
-import { colors } from '@pickk/design-token';
+import { colors, palette } from '@pickk/design-token';
 
 // raw token
-colors.light.scheme;
+colors.light.scheme.black;
 
 // semantic token
-colors.light.semanticScheme;
+colors.light.semanticScheme.white;
+
+// raw token (shortcut)
+colors.palette.blue;
+palette.blue;
 ```

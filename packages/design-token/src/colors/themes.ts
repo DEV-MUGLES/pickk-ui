@@ -40,3 +40,6 @@ export const light: Readonly<ColorTheme> = Object.freeze({
 
 // @TODO: 다크모드 만들면 그때 활용하기
 export const dark = light;
+
+/** shortcut of light.scheme */
+export const palette = light.scheme;
