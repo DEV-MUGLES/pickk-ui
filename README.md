@@ -8,6 +8,38 @@
 
 [`packages`](./packages)에 있는 패키지들 사용법은 각 워크스페이스 `README.md`를 참고해주세요.
 
+## 사용되는 명령어들
+
+### 1. yarn install, add (전역)
+
+```shell
+# 설치
+yarn
+
+# 추가
+yarn add <package-name>
+```
+
+### 2. 워크스페이스별 종속성 추가,제거
+
+```shell
+# 추가
+yarn workspace <workspace-name> add <package-name>
+
+# 제거
+yarn workspace <workspace-name> remove <package-name>
+```
+
+### 3. 워크스페이스별 배포
+
+```shell
+# npm login
+yarn npm login
+
+# 배포
+yarn workspace <workspace-name> npm publish
+```
+
 ## Ref
 
 https://github.com/daangn/karrot-ui
