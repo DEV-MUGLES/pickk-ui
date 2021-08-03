@@ -36,6 +36,9 @@ yarn workspace <workspace-name> remove <package-name>
 # npm login
 yarn npm login
 
+# 버전 업데이트 (strategy = 'major'|'minor'|'patch')
+yarn workspace <workspace-name> version <strategy>
+
 # 배포
 yarn workspace <workspace-name> npm publish
 ```
