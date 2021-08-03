@@ -1,5 +1,8 @@
 # @pickk/design-token
 
+[![NPM version](https://img.shields.io/npm/v/@pickk/design-token)](https://www.npmjs.com/package/@pickk/design-token)
+[![NPM bundle size](https://img.shields.io/bundlephobia/min/@pickk/design-token)](https://www.npmjs.com/package/@pickk/design-token)
+
 디자인 토큰이 무엇인가요?
 
 > Design tokens are indivisible pieces of a design system such as colors, spacing, typography scale.
