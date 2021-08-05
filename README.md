@@ -36,6 +36,10 @@ yarn workspace <workspace-name> remove <package-name>
 # npm login
 yarn npm login
 
+# 빌드
+yarn workspace <workspace-name> version <strategy>
+# ex: yarn workspace @pickk/design-token build
+
 # 버전 업데이트 (strategy = 'major'|'minor'|'patch')
 yarn workspace <workspace-name> version <strategy>
 # ex: yarn workspace @pickk/design-token version patch
