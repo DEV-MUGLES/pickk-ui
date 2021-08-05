@@ -20,13 +20,13 @@ export const light: Readonly<ColorTheme> = Object.freeze({
     gray6: '#1A1A1A',
 
     // 포인트 컬러
-    orange1: '#FFE2D2',
-    orange2: '#FFD2B9',
-    orange3: '#FFBC97',
-    orange4: '#FF9E66',
-    orange5: '#FF7E36',
+    orange1: '#FDF5F5',
+    orange2: '#FBD7D4',
+    orange3: '#F7AFA8',
+    orange4: '#F4877D',
+    orange5: '#F05F51',
     /** FOR POINT */
-    orange6: '#FA6616',
+    orange6: '#EC3726',
 
     blue: '#5577F5',
   },
