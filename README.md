@@ -38,6 +38,15 @@ yarn npm login
 
 # 버전 업데이트 (strategy = 'major'|'minor'|'patch')
 yarn workspace <workspace-name> version <strategy>
+# ex: yarn workspace @pickk/design-token version patch
+
+# 버전 업데이트 커밋 생성
+git commit -m "chore(<scope-name>): release <workspace-name> <version>"
+# ex: git commit -m "chore(design-token): release @pickk/design-token 0.0.3"
+
+# 태그 부여
+git tag -a "<workspace-name>@<version>"
+# ex: git tag -a "@pickk/design-token@0.0.3"
 
 # 배포
 yarn workspace <workspace-name> npm publish
