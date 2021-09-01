@@ -2,8 +2,9 @@ import type { ColorTheme } from './types';
 
 export const light: Readonly<ColorTheme> = Object.freeze({
   scheme: {
-    /** 불투명한 개체를 보여줘야할 때 opacity를 50% 부여해서 사용한다. */
     black: '#000',
+    /** opacity가 50%인 black */
+    black50: 'rgba(0, 0 ,0, 0.5)',
 
     white: '#FFF',
 
