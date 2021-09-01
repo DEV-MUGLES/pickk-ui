@@ -13,6 +13,12 @@ Object {
       "#000",
     ],
   ],
+  "black50": Array [
+    Array [
+      "black50",
+      "rgba(0, 0 ,0, 0.5)",
+    ],
+  ],
   "blue": Array [
     Array [
       "blue",
@@ -48,27 +54,27 @@ Object {
   "orange": Array [
     Array [
       "orange1",
-      "#FFE2D2",
+      "#FDF5F5",
     ],
     Array [
       "orange2",
-      "#FFD2B9",
+      "#FBD7D4",
     ],
     Array [
       "orange3",
-      "#FFBC97",
+      "#F7AFA8",
     ],
     Array [
       "orange4",
-      "#FF9E66",
+      "#F4877D",
     ],
     Array [
       "orange5",
-      "#FF7E36",
+      "#F05F51",
     ],
     Array [
       "orange6",
-      "#FA6616",
+      "#EC3726",
     ],
   ],
   "white": Array [
@@ -88,6 +94,12 @@ Object {
       "#000",
     ],
   ],
+  "black50": Array [
+    Array [
+      "black50",
+      "rgba(0, 0 ,0, 0.5)",
+    ],
+  ],
   "blue": Array [
     Array [
       "blue",
@@ -123,27 +135,27 @@ Object {
   "orange": Array [
     Array [
       "orange1",
-      "#FFE2D2",
+      "#FDF5F5",
     ],
     Array [
       "orange2",
-      "#FFD2B9",
+      "#FBD7D4",
     ],
     Array [
       "orange3",
-      "#FFBC97",
+      "#F7AFA8",
     ],
     Array [
       "orange4",
-      "#FF9E66",
+      "#F4877D",
     ],
     Array [
       "orange5",
-      "#FF7E36",
+      "#F05F51",
     ],
     Array [
       "orange6",
-      "#FA6616",
+      "#EC3726",
     ],
   ],
   "white": Array [
