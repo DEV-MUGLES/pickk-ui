@@ -1,4 +1,4 @@
-const singleColorGroupNames = ['white', 'black', 'blue'] as const;
+const singleColorGroupNames = ['white', 'black', 'black50', 'blue'] as const;
 
 export type SingleColorGroup = typeof singleColorGroupNames[number];
 
@@ -8,6 +8,7 @@ export function isSingleColorGroup(str: string): str is SingleColorGroup {
 
 const knownColorGroupNames = [
   'black',
+  'black50',
   'white',
   'gray',
   'orange',
@@ -27,6 +28,7 @@ type MakeTokenSet<
 
 export type ColorToken =
   | 'black'
+  | 'black50'
   | 'white'
   | MakeTokenSet<'gray', [1, 2, 3, 4, 5, 6]>
   | MakeTokenSet<'orange', [1, 2, 3, 4, 5, 6]>
